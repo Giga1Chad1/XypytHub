@@ -396,7 +396,7 @@ TextLabel_3.TextWrapped = true
 
 -- Scripts:
 
-local function FPOJTMB_fake_script() -- PlayerButton.LocalScript 
+local function LAXYOP_fake_script() -- PlayerButton.LocalScript 
 	local script = Instance.new('LocalScript', PlayerButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -411,8 +411,8 @@ local function FPOJTMB_fake_script() -- PlayerButton.LocalScript
 		script.Parent:TweenSize(UDim2.new(0, 116,0, 21),"Out","Back")
 	end)
 end
-coroutine.wrap(FPOJTMB_fake_script)()
-local function QOKV_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(LAXYOP_fake_script)()
+local function JOIWU_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local player = game.Players.LocalPlayer
@@ -421,8 +421,8 @@ local function QOKV_fake_script() -- TextButton.LocalScript
 		player.Character.Humanoid.WalkSpeed = 100
 	end)
 end
-coroutine.wrap(QOKV_fake_script)()
-local function VJKSMGP_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(JOIWU_fake_script)()
+local function BFQJ_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local player = game.Players.LocalPlayer
@@ -431,8 +431,8 @@ local function VJKSMGP_fake_script() -- TextButton_2.LocalScript
 		player.Character.Humanoid.WalkSpeed = 200
 	end)
 end
-coroutine.wrap(VJKSMGP_fake_script)()
-local function KAPV_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(BFQJ_fake_script)()
+local function JGSLT_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local player = game.Players.LocalPlayer
@@ -441,8 +441,8 @@ local function KAPV_fake_script() -- TextButton_3.LocalScript
 		player.Character.Humanoid.WalkSpeed = 300
 	end)
 end
-coroutine.wrap(KAPV_fake_script)()
-local function NRTZV_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(JGSLT_fake_script)()
+local function PKNX_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local player = game.Players.LocalPlayer
@@ -451,8 +451,8 @@ local function NRTZV_fake_script() -- TextButton_4.LocalScript
 		player.Character.Humanoid.WalkSpeed = 400
 	end)
 end
-coroutine.wrap(NRTZV_fake_script)()
-local function RUPUK_fake_script() -- CloseButton.LocalScript 
+coroutine.wrap(PKNX_fake_script)()
+local function FYZQEHD_fake_script() -- CloseButton.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -463,8 +463,8 @@ local function RUPUK_fake_script() -- CloseButton.LocalScript
 		ListFrame.Visible = false
 	end)
 end
-coroutine.wrap(RUPUK_fake_script)()
-local function TTAZXO_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(FYZQEHD_fake_script)()
+local function CTVN_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -473,8 +473,8 @@ local function TTAZXO_fake_script() -- TextButton_5.LocalScript
 		ListFrame:TweenSize(UDim2.new(0, 145,0, 140),"Out","Back")
 	end)
 end
-coroutine.wrap(TTAZXO_fake_script)()
-local function GXRD_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(CTVN_fake_script)()
+local function LJDA_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	local player = game.Players.LocalPlayer
@@ -483,8 +483,8 @@ local function GXRD_fake_script() -- TextButton_6.LocalScript
 		player.Character.Humanoid.JumpPower = 100
 	end)
 end
-coroutine.wrap(GXRD_fake_script)()
-local function BFPAT_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(LJDA_fake_script)()
+local function FLBWAY_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	local player = game.Players.LocalPlayer
@@ -493,8 +493,8 @@ local function BFPAT_fake_script() -- TextButton_7.LocalScript
 		player.Character.Humanoid.JumpPower = 200
 	end)
 end
-coroutine.wrap(BFPAT_fake_script)()
-local function HHLTZK_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(FLBWAY_fake_script)()
+local function JETJMQ_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	local player = game.Players.LocalPlayer
@@ -503,8 +503,8 @@ local function HHLTZK_fake_script() -- TextButton_8.LocalScript
 		player.Character.Humanoid.WalkSpeed = JumpPower
 	end)
 end
-coroutine.wrap(HHLTZK_fake_script)()
-local function BFAQD_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(JETJMQ_fake_script)()
+local function SEHXVHL_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	local player = game.Players.LocalPlayer
@@ -513,8 +513,8 @@ local function BFAQD_fake_script() -- TextButton_9.LocalScript
 		player.Character.Humanoid.JumpPower = 400
 	end)
 end
-coroutine.wrap(BFAQD_fake_script)()
-local function EBYTT_fake_script() -- CloseButton_2.LocalScript 
+coroutine.wrap(SEHXVHL_fake_script)()
+local function RAKUA_fake_script() -- CloseButton_2.LocalScript 
 	local script = Instance.new('LocalScript', CloseButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -525,8 +525,8 @@ local function EBYTT_fake_script() -- CloseButton_2.LocalScript
 		ListFrame2.Visible = false
 	end)
 end
-coroutine.wrap(EBYTT_fake_script)()
-local function JLBW_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(RAKUA_fake_script)()
+local function ULNMY_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -535,8 +535,8 @@ local function JLBW_fake_script() -- TextButton_10.LocalScript
 		ListFrame2:TweenSize(UDim2.new(0, 145,0, 140),"Out","Back")
 	end)
 end
-coroutine.wrap(JLBW_fake_script)()
-local function YCKMF_fake_script() -- WorldButton.LocalScript 
+coroutine.wrap(ULNMY_fake_script)()
+local function QSXEK_fake_script() -- WorldButton.LocalScript 
 	local script = Instance.new('LocalScript', WorldButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -551,8 +551,8 @@ local function YCKMF_fake_script() -- WorldButton.LocalScript
 		script.Parent:TweenSize(UDim2.new(0, 116,0, 21),"Out","Back")
 	end)
 end
-coroutine.wrap(YCKMF_fake_script)()
-local function PIIF_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(QSXEK_fake_script)()
+local function ZOWOX_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -561,8 +561,8 @@ local function PIIF_fake_script() -- TextButton_11.LocalScript
 		part.CFrame = player.Character.RightFoot.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(PIIF_fake_script)()
-local function VPWH_fake_script() -- CreditButton.LocalScript 
+coroutine.wrap(ZOWOX_fake_script)()
+local function ZVZIJUS_fake_script() -- CreditButton.LocalScript 
 	local script = Instance.new('LocalScript', CreditButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -577,8 +577,8 @@ local function VPWH_fake_script() -- CreditButton.LocalScript
 		script.Parent:TweenSize(UDim2.new(0, 116,0, 21),"Out","Back")
 	end)
 end
-coroutine.wrap(VPWH_fake_script)()
-local function JQVBII_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(ZVZIJUS_fake_script)()
+local function RCXAH_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local frame = script.Parent.HaxFrame
@@ -586,4 +586,16 @@ local function JQVBII_fake_script() -- ScreenGui.LocalScript
 	frame.Active = true
 	frame.Archivable = true
 end
-coroutine.wrap(JQVBII_fake_script)()
+coroutine.wrap(RCXAH_fake_script)()
+local function RWPPN_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local mouse = game.Players.LocalPlayer:GetMouse()
+	
+	mouse.KeyUp:Connect(function(key)
+		if key == "n" then
+			script.Parent.HaxFrame.Visible = not script.Parent.HaxFrame.Visible
+		end
+	end)
+end
+coroutine.wrap(RWPPN_fake_script)()
